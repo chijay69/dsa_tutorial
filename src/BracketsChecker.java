@@ -1,4 +1,4 @@
-import sorting1.Stack;
+import sorting.Stack;
 
 public class BracketsChecker {
     private String input;

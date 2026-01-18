@@ -3,8 +3,8 @@ public class BubbleSortApp {
         int maxSize = 100;
 //        BubbleSort arr;
 //        arr = new BubbleSort(100);
-        sorting1.BubbleSort arr;
-        arr = new sorting1.BubbleSort(100);
+        sorting.BubbleSort arr;
+        arr = new sorting.BubbleSort(100);
 
         arr.insert(77);
         arr.insert(99);

@@ -1,6 +1,6 @@
 public class StackApp {
     public static void main (String[] args) {
-        sorting1.Stack thestack = new sorting1.Stack(10);
+        sorting.Stack thestack = new sorting.Stack(10);
 
         thestack.push(20);
         thestack.push(40);

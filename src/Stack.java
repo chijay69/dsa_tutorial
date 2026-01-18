@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Stack implements AbstractStackClass<Array_ds<Double>> {
+public class Stack implements AbstractStackClass {
 
     private int maxSize;
     private double[] stackArray;

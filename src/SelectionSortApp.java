@@ -1,4 +1,4 @@
-import sorting1.SelectionSort;
+import sorting.SelectionSort;
 
 public class SelectionSortApp {
 

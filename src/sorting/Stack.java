@@ -1,4 +1,4 @@
-package sorting1;
+package sorting;
 
 public class Stack {
     private double[] stackArray;

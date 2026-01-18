@@ -1,6 +1,4 @@
-import java.util.Objects;
-
-public class StackLink implements AbstractStackClass<StackLinkedList> {
+public class StackLink implements AbstractStackClass {
     private StackLinkedList list;
 
     public StackLink () {
