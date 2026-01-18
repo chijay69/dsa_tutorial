@@ -1,8 +1,6 @@
 // BubbleSort.java
 // To demonstrate bubble sort
 
-package sorting;
-
 import java.util.Arrays;
 
 public class BubbleSort {

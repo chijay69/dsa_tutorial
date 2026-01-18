@@ -1,16 +1,10 @@
-package sorting;
-
-import sorting1.SelectionSort;
-
-public class SelectionSortApp {
-
+public class BubbleSortApp {
     public static void main(String[] args) {
         int maxSize = 100;
-        SelectionSort arr;
-        arr = new SelectionSort(100);
-//
-//        SelectionSort arr;
-//        arr = new SelectionSort(100);
+//        BubbleSort arr;
+//        arr = new BubbleSort(100);
+        sorting1.BubbleSort arr;
+        arr = new sorting1.BubbleSort(100);
 
         arr.insert(77);
         arr.insert(99);
@@ -27,7 +21,7 @@ public class SelectionSortApp {
         System.out.print("Displaying original array sequence: ");
         System.out.println(arr);
 
-        arr.selectionSort();
+        arr.bubbleSort();
 
         System.out.print("Displaying sorted array sequence: ");
         System.out.println(arr);

@@ -1,5 +1,3 @@
-package sorting;
-
 public class StackApp {
     public static void main (String[] args) {
         sorting1.Stack thestack = new sorting1.Stack(10);

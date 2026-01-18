@@ -1,8 +1,6 @@
 // selectionSort.java
 // demonstrate selectionSort
 
-package sorting;
-
 import java.util.Arrays;
 
 public class SelectionSort {
