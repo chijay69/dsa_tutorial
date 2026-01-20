@@ -1,7 +1,7 @@
 public class PriorityQueue {
     // Array in sorted order from max at 0 to min at maxSize -1.
     private int maxSize;
-    private double[] queArray;
+    private final double[] queArray;
     private int nItems;
 
     public PriorityQueue(int s){

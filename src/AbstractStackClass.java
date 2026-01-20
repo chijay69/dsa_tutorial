@@ -1,5 +1,3 @@
-
-
 public interface AbstractStackClass {
 
     void push(double j);
@@ -11,5 +9,4 @@ public interface AbstractStackClass {
     int size();
 
     void displayStack();
-
 }

@@ -24,16 +24,15 @@ public class StackLinkedList {
 
     public void insertFirst(double dd) {
         Links newLink = new Links(dd);
-        newLink.next = first; // the newlink points to the current first
-        first = newLink; // then the new first is set to the new link
+        newLink.next = first; // the newLink points to the current first.
+        first = newLink; // then the new first is set to the new link.
     }
 
     public double deleteFirst() {
-
         if (first != null){
             Links temp = first;
             if (first.next == null) {
-                first = null; // first is pointing to null, so the new first is set to null and the current first is returned
+                first = null; // first is pointing to null, so the new first is set to null and the current first is returned.
 
             } else {
                 first = first.next;
@@ -52,7 +51,6 @@ public class StackLinkedList {
         System.out.println();
     }
 
-
     public int size() {
         int count = 0;
         Links current = first;
@@ -62,5 +60,4 @@ public class StackLinkedList {
         }
         return count;
     }
-
 }
