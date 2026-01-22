@@ -13,16 +13,15 @@ public class InterIterApp {
 
         Object value = 0;
 
-//        iterator.insertAfter(20);
-//        iterator.insertAfter(30);
-//        iterator.insertAfter(40);
-//        iterator.insertBefore(60);
+        iterator.insertAfter(0);
+        iterator.insertAfter(10);
+        iterator.insertAfter(80);
+        iterator.insertBefore(90);
 
         iterator.insertAfter(0,20);
         iterator.insertAfter(20, 30);
         iterator.insertAfter(30, 40);
-        iterator.insertAfter(20, 60);
-//        iterator.insertBefore(0,60);
+        iterator.insertBefore(0,60);
 
         while(true) {
             System.out.print("Enter first the letter of show, reset, ");
