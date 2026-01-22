@@ -60,4 +60,16 @@ public class StackLinkedList {
         }
         return count;
     }
+
+    public Links getFirst() {
+        return this.first;
+    }
+
+    public void setFirst(Links newFirst) {
+        this.first = newFirst;
+    }
+
+    public ListIterator getListIterator() {
+        return new ListIterator(this);
+    }
 }

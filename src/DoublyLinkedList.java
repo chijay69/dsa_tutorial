@@ -5,7 +5,7 @@ class LinkD {
     public LinkD next;
     public LinkD previous;
 
-    public LinkD (double d) {
+    public LinkD(double d) {
         dData = d;
     }
 
