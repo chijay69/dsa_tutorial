@@ -46,6 +46,7 @@ public class ListIterator {
         Links newLink = new Links(dd);
         reset();
         if (ourList.isEmpty()) {
+            System.out.println("List is empty so ...");
             ourList.setFirst(newLink);
             current = newLink;
             previous = null;
@@ -53,15 +54,16 @@ public class ListIterator {
         }
 
         while (current != null && current.dData != key) {
+            System.out.println("Iterating to find key match.");
             current = current.next;
         }
 
         if (current == null) {
+            System.out.println("Couldn't find key, now at list end.");
             return false;
         }
         newLink.next = current.next;
         current.next = newLink;
-        nextLink();
         return true;
     }
 
